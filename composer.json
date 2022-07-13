@@ -1,0 +1,20 @@
+{
+    "name": "hb/todolist",
+    "description": "An example of todolist  using composer php",
+    "type": "projetc",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Hb\\Todolist\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Olivier Blanc",
+            "email": "olivierhumanbooster@gmail.com"
+        }
+    ],
+    "require": {
+        "twig/twig": "^3.4"
+    }
+}
